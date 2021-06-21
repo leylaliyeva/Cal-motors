@@ -1,0 +1,11 @@
+.contactForm iframe{
+    height: 140vh;
+    width: 50%;
+    display: block;
+}
+
+@media screen and (max-width: 992px) {
+    .contactForm iframe{
+        width: 100%;
+    }
+}

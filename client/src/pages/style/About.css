@@ -1,0 +1,44 @@
+.aboutSection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 150px;
+}
+ 
+.aboutSection img{
+    width: 100%;
+    left: 50%;
+}
+
+h1{
+    margin: 20px 0px;
+}
+
+.aboutSection p{
+    position: absolute;
+    z-index: 100;
+    color: white;
+    top: 30%;
+    left: 5%;
+    background-color: black;
+    width: 50%;
+    line-height: 1.5;
+    font-size: 20px;
+    padding: 40px;
+    font-weight: 100 !important;
+}
+
+
+@media screen and (max-width: 992px) {
+    .aboutSection{
+        padding: 30px 20px;
+    }
+.aboutSection p{
+    width:100%;
+    position: inherit;
+    line-height: 1.5;
+    padding: 15px;
+
+}
+
+}
